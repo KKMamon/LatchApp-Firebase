@@ -1,5 +1,4 @@
-# Build and Deploy a Full Stack Social Media App (ReactJS + Firebase v9 + Chakra UI)
-Video Tutorial: https://youtu.be/ELyjd5OXZKI
+# Build and Deploy a Full Stack Latch App (ReactJS + Firebase v9 + Chakra UI)
 
 ## Packages used
 - react-firebase-hooks
@@ -7,20 +6,14 @@ Video Tutorial: https://youtu.be/ELyjd5OXZKI
 - react-hook-form
 
 ## Features to add
-1. Email verification
-2. Being able to follow other users (and customize home feed based on followed users)
-3. Firebase Auth Security Rules (to secure write access)
-4. Responsive Design (for mobile)
-5. Change all "Loading..." text indicators to more aesthetic skeletons
-6. Use a library like "react-query" to optimize and reduce reads with cache (e.g. changing pages causes all avatar images to refresh)
-7. Use count() and Firebase indexes to reduce billed read counts (instead of using fetching all documents and using Javascript's Array.length to count number of likes, comments, posts, etc)
-8. Possibly move to NextJS (but NextJS 13 is a huge mess right now)
-9. Better protected routes: Make use of the "next=?" prop
-10. Better storage validation and optimization (using serverless functions to compress and upload profile picture files)
-11. Auth optimization: Store user to localStorage to reduce auth user loading time
-12. Deploying to Hostinger: Remember .env vars
-
-- Deploy to Hostinger: https://dev.to/mwoodson11/deploy-react-app-on-hostinger-3id5
+1. Firebase Auth Security Rules (to secure write access)
+2. Responsive Design (for mobile)
+3. Change all "Loading..." text indicators to more aesthetic skeletons
+4. Use a library like "react-query" to optimize and reduce reads with cache (e.g. changing pages causes all avatar images to refresh)
+5. Better protected routes: Make use of the "next=?" prop
+6. Better storage validation and optimization (using serverless functions to compress and upload profile picture files)
+7. Auth optimization: Store user to localStorage to reduce auth user loading time
+8. Deploying to Hostinger: Remember .env vars
 
 # Getting Started with Create React App
 
@@ -30,7 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -38,12 +31,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `yarn test`
+### `npm run test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -53,7 +46,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -89,7 +82,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# LatchApp-Firebase
