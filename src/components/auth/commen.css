@@ -1,0 +1,8 @@
+.image-row {
+    display: flex;
+  }
+  
+  .image-row img {
+    width: 10%; /* Set each image to take up one-third of the container width */
+  }
+ 
